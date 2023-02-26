@@ -22,17 +22,3 @@ const imagesListItems = images.map(el => {
     </li>`
   );
 });
-
-// const galleryList = document.querySelector('.gallery');
-
-// const galleryMarkup = images
-//   .map(({ url, alt }) => {
-//     return `
-//       <li class="gallery-item">
-//         <img class="gallery-image" src="${url}" alt="${alt}">
-//       </li>
-//     `;
-//   })
-//   .join('');
-
-// galleryList.insertAdjacentHTML('beforeend', galleryMarkup);

@@ -33,11 +33,11 @@ function createBoxes(amount) {
     elementList.push(element);
   }
 
-  destroyBoxes();
   boxes.append(...elementList)
 };
 
 function destroyBoxes() {
   boxes.innerHTML = "";
+  input.value = "";
 };
 
